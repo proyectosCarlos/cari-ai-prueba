@@ -1,0 +1,12 @@
+@import './base.css';
+@import "tailwindcss";
+
+@plugin "daisyui" {
+  themes: light --default;
+}
+
+.contenedor-graficos {
+
+  background-color: #fecf1c;
+
+}
