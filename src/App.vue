@@ -75,7 +75,7 @@ onMounted(() => {
         <h1 class="text-2xl font-bold">Calcular tiempos App</h1>
 
         <form action="" class="flex flex-col gap-5 w-full items-center p-2  rounded-md shadow-sm">
-          <label for="horario">Selecciona un concepto</label>
+          <label for="horario">Configuración de conceptos</label>
           <select class="select " v-model="conceptType"
             @change="updateSelectedConcept(conceptType, { start: '08:10', end: '09:10' })">
             <option v-for="concept in concepts" :key="concept.id" :value="concept.id">
@@ -110,12 +110,12 @@ onMounted(() => {
 
         <div class="w-full flex gap-5">
           <div class="flex flex-1 flex-col">
-            <label for="startTime">Hora de inicio</label>
+            <label for="startTime">Hora de entrada</label>
             <input type="time" class="input flex-1" v-model="initTime" name="appointment" />
           </div>
 
           <div class="flex flex-1 flex-col">
-            <label for="startTime">Hora final</label>
+            <label for="startTime">Hora de salida</label>
             <input type="time" class="input flex-1" v-model="finalTime" name="appointment" />
           </div>
         </div>
