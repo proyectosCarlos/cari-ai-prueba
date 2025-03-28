@@ -126,7 +126,7 @@ onMounted(() => {
       </div>
       <div
         class="bg-yellow-400 w-full md:w-7/12 h-auto md:h-full shadow-sm rounded-l-2xl flex justify-center items-center">
-        text-gray-500
+        Graficos
       </div>
     </div>
 
